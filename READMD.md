@@ -14,7 +14,7 @@
 ## 수정
 1. $ git add . (or 원하는 파일 이름, 확장자 포함)
 2. $ git commit -m "수정된 내용"
-3. $ git push -u origin master
+3. $ git push -u origin master ( 한번 실행한 경우 git push만 해도 적용됨)
 
 ## git file 다운 방법
 1. $ git clone (git link)
