@@ -35,5 +35,15 @@
 
 
 ## 브랜치 관련 명령어
-* git checkout [브랜치 이름] ->      브랜치 전환
-* git merge [브랜치 이름]    ->      브랜치 병합
+* git checkout [브랜치 이름]   ->        브랜치 전환
+* git merge [브랜치 이름]      ->        브랜치 병합
+
+## git commit history 재작성
+1. git rebase -i HEAD~[개수]   ->       수정할 커밋 리스트 출력
+* pick - 커밋을 사용함
+* s(squash) - 이전 커밋과 합침
+2. 커밋로그 설정
+3. git push -f origin
+
+* git rebase --abort           ->       rebase 취소
+* git rebase --continue        ->       conflict 수정후 rebase 다시 시도
